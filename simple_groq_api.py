@@ -7,3 +7,5 @@ load_dotenv()
 agent = Agent(
     model=Groq(id="llama-3.3-70b-versatile")
 )
+
+agent.print_response("Write a small poem about rain and smell of soil")
