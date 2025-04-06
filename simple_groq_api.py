@@ -8,4 +8,4 @@ agent = Agent(
     model=Groq(id="llama-3.3-70b-versatile")
 )
 
-agent.print_response("Write a small poem about rain and smell of soil")
+agent.print_response("Make a pickup line in malayalam and write it in malayalam")
