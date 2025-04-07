@@ -10,7 +10,8 @@ agent = Agent(
     tools=[YFinanceTools(stock_price=True,analyst_recommendations=True,stock_fundamentals=True)],
     show_tool_calls=True,
     markdown=True,
-    instructions=["Use tables to display data"]
+    instructions=["Use tables to display data"],
+    debug_mode=True
 )
 
-agent.print_response("Summarise and compare analyst recommendations and fundamentals for AMD and INTC")
+agent.print_response("Summarise and compare analyst recommendations and fundamentals for WMT and LULU")
